@@ -1,0 +1,23 @@
+{
+    "name": "lessboringengine",
+    "version": "0.0.1",
+    "description": "An entity system game engine made in Javascript, inspiried by Ash",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dcolgan/lessboringengine"
+    },
+    "keywords": [
+        "ECS",
+        "game",
+        "engine"
+    ],
+    "author": "David Colgan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dcolgan/lessboringengine/issues"
+    },
+    "homepage": "https://github.com/dcolgan/lessboringengine"
+}
