@@ -19,5 +19,11 @@
     "bugs": {
         "url": "https://github.com/dcolgan/lessboringengine/issues"
     },
-    "homepage": "https://github.com/dcolgan/lessboringengine"
+    "homepage": "https://github.com/dcolgan/lessboringengine",
+    "devDependencies" : {
+        "grunt" : "~0.4.3",
+        "grunt-contrib-jshint" : "~0.8.0",
+        "grunt-contrib-watch" : "~0.5.3",
+        "grunt-browserify" : "~1.3.1"
+    }
 }
