@@ -14,6 +14,10 @@ module.exports = function(grunt) {
             }
         },
 
+        clean: {
+          files : ["build/*.*"]
+        },
+
         watch: {
             scripts: {
                 files: ['**/*.js'],
@@ -28,6 +32,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
-    grunt.registerTask('default', ['jshint', 'browserify']);
+    grunt.registerTask('default', ['clean', 'jshint', 'browserify']);
 };

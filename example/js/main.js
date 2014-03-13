@@ -1,10 +1,10 @@
-var Class = require('../lib/class');
-var Engine = require('../lib/engine');
-var Input = require('../lib/input');
+var Class = require('../../lib/class');
+var Engine = require('../../lib/engine');
+var Input = require('../../lib/input');
 
 var s = require('./systems');
 var EntityFactory = require('./entity-factory');
-var PIXI = require('../vendor/pixi');
+var PIXI = require('../../vendor/pixi');
 
 var Main = Class.extend({
     init: function() {

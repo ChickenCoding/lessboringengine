@@ -1,4 +1,4 @@
-var PIXI = require('../vendor/pixi');
+var PIXI = require('../../vendor/pixi');
 
 module.exports = {
     Graphics: function(stage) {
