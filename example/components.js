@@ -1,4 +1,4 @@
-var PIXI = require('vendor/pixi');
+var PIXI = require('../vendor/pixi');
 
 module.exports = {
     Graphics: function(stage) {
@@ -44,7 +44,7 @@ module.exports = {
         this._name = 'randomInput';
     },
 
-    ActionInput: function() { 
+    ActionInput: function() {
         this._name = 'actionInput';
         this.left = false;
         this.right = false;

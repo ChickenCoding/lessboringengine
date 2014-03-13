@@ -25,5 +25,11 @@ Future Systems planned:
 
 I also want to add unit tests to this.
 
+How to use :
+* type ``npm install .`` in the terminal to install the needed dependencies. You will need to have nodejs installed.
+* type ``grunt`` in the terminal to compile
+* open ``index.html`` in your browser
+* ???
+* Profit
 
 This engine makes use of John Resig's simple Javascript inheritance system: [http://ejohn.org/blog/simple-javascript-inheritance/](http://ejohn.org/blog/simple-javascript-inheritance/)

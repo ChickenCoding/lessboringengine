@@ -2,7 +2,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         browserify: {
             dist : {
-                src: ['src/**/*.js', 'lib/**/*.js', 'vendor/**/*.js'],
+                src: ['example/**/*.js', 'lib/**/*.js', 'vendor/**/*.js'],
                 dest: 'build/app.js'
             }
         },

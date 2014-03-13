@@ -1,7 +1,7 @@
 //var G = require('src/constants');
-var Class = require('lib/class');
-var Entity = require('lib/entity');
-var c = require('src/components');
+var Class = require('../lib/class');
+var Entity = require('../lib/entity');
+var c = require('./components');
 
 var EntityFactory = Class.extend({
     init: function(engine, stage) {

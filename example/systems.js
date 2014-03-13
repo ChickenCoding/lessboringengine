@@ -1,4 +1,4 @@
-var System = require('lib/system');
+var System = require('../lib/system');
 
 module.exports = {
     ShapeRenderSystem: System.extend({
