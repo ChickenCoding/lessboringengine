@@ -2,6 +2,7 @@ Less Boring Engine
 ================
 
 [![Build Status](https://travis-ci.org/ChickenCoding/lessboringengine.png?branch=fork)](https://travis-ci.org/ChickenCoding/lessboringengine)
+
 [![Dependencies Status](https://david-dm.org/ChickenCoding/lessboringengine.png)](https://david-dm.org/ChickenCoding/lessboringengine.png)
 
 An entity system game engine made in Javascript, inspiried by Ash.
